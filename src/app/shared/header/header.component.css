@@ -1,0 +1,61 @@
+/* .navbar-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  background-color: rgba(255, 255, 255, 0.03);
+} */
+
+/* ======= NAVBAR FIXA ======= */
+.navbar-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  background-color: #282c30;
+  border-bottom: 1px solid #222;
+}
+
+/* ======= LINKS DO MENU DESKTOP ======= */
+.navbar-fixa nav a {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+/* Underline animado */
+.navbar-fixa nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #6f6cff;
+  transition: width 0.3s ease;
+}
+
+/* Hover do link */
+.navbar-fixa nav a:hover {
+  color: #6f6cff;
+}
+
+.navbar-fixa nav a:hover::after {
+  width: 100%;
+}
+
+/* ======= ÍCONE ESQUERDO DA NAV ======= */
+.logo {
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.logo:hover {
+  /* transform: rotate(10deg) scale(1.1); */
+  color: #6f6cff;
+}

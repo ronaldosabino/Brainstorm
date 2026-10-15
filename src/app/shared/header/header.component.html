@@ -1,0 +1,41 @@
+<div class="navbar-fixa shadow-sm">
+  <nav class="d-flex justify-content-md-around justify-content-between align-items-center px-4 py-4  text-white shadow-sm">
+    <div class="logo fs-3 cursor-pointer d-flex align-items-center chakra-petch-bold-italic" (click)="redirectToHome()">
+      <!-- <i class="bi bi-bootstrap-reboot fs-1 cursor-pointer"></i> -->
+      <i class="bi bi-tornado me-2"></i>
+      <span class="d-none d-md-block">BRAINSTORM</span>
+    </div>
+
+    <div class="d-none d-md-block">
+      <ul class="list-group list-group-horizontal gap-2">
+        <li class="list-group-item bg-transparent border-0">
+          <a class="text-decoration-none text-white cursor-pointer" (click)="redirectToAbout()">SOBRE NÓS</a>
+        </li>
+        <li class="list-group-item bg-transparent border-0">
+          <a class="text-decoration-none text-white cursor-pointer" (click)="redirectToClassroom()">SALA DE AULA</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="d-md-none">
+      <button type="button" class="btn border-0 text-white" (click)="toggleMenu()">
+        <i [ngClass]="openMenu ? 'bi-x-lg' : 'bi-list'" class="fs-3 icon-menu"></i>
+      </button>
+    </div>
+
+
+  </nav>
+
+  <!-- Lista mobile -->
+  <div class="d-md-none d-flex justify-content-center" style="background-color: #282c30;" *ngIf="openMenu">
+    <ul class="list-group text-center rounded-0 gap-1" style="background-color: #282c30;">
+      <li class="list-group-item bg-transparent text-white border-0">
+        <a (click)="toggleMenu()" class="text-decoration-none text-white" (click)="redirectToAbout()">SOBRE NÓS</a>
+      </li>
+      <li class="list-group-item bg-transparent text-white border-0">
+        <a (click)="toggleMenu()" class="text-decoration-none text-white" (click)="redirectToClassroom()">SALA DE AULA</a>
+      </li>
+    </ul>
+  </div>
+
+</div>

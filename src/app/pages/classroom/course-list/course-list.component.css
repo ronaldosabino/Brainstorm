@@ -1,0 +1,34 @@
+.card-premium {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff1a;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 16px #0003;
+  transition: 0.3s;
+}
+
+.card-premium:hover {
+  border-color: #6f6cffaa;
+  box-shadow: 0 0 24px #6f6cff33;
+}
+
+.check-premium {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+/*
+.check-premium:hover {
+  color: #6f6cff;
+} */
+
+.hover-zoom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-zoom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px #6f6cff33;
+}
+
+/* input[type="checkbox"] {
+  accent-color: #6f6cff;
+} */

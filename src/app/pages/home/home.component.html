@@ -1,0 +1,135 @@
+<div class="container text-white" style="margin-top: 12rem;">
+  <div class="d-flex flex-column-reverse flex-md-row justify-content-md-between align-items-center">
+    <div class="col-md-6">
+      <h3 class="m-0 fs-1 chakra-petch-bold-italic text-center text-md-start">Os <span class="text-color-primary">melhores cursos</span> para iniciar a sua carreira</h3>
+      <small class="d-block my-4">Um passo a frente e você já não está mais no mesmo lugar! Comece hoje a sua jornada como desenvolvedor e impulsione a sua carreira profissional.</small>
+      <button class="btn btn-primary col-12 col-md-7 chakra-petch-bold-italic" (click)="redirectToClassroom()">EXPLORE OS CURSOS</button>
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+      <i class="bi bi-code-slash" style="font-size: 15rem;"></i>
+    </div>
+  </div>
+
+  <div class="row text-center" style="margin: 10rem 0 10rem 0">
+
+    <div class="col-12 col-md-4 mb-3 mb-md-0">
+      <div class="card-premium hover-zoom py-5" style="min-height: 6rem">
+        <span><i class="bi bi-cash-coin fs-1 text-color-primary"></i></span>
+        <h3 class="m-0 chakra-petch-bold-italic fs-4 mt-2">
+          TODOS OS CURSOS <br> <span>GRATUITOS</span>
+        </h3>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 mb-3 mb-md-0">
+      <div class="card-premium hover-zoom py-5" style="min-height: 6rem">
+        <span><i class="bi bi-rocket-takeoff fs-1 text-color-primary"></i></span>
+        <h3 class="m-0 chakra-petch-bold-italic fs-4 mt-2">
+          A MELHOR <br> <span>DIDÁTICA</span>
+        </h3>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="card-premium hover-zoom py-5" style="min-height: 6rem">
+        <span><i class="bi bi-mortarboard fs-1 text-color-primary"></i></span>
+        <h3 class="m-0 chakra-petch-bold-italic fs-4 mt-2">
+          INSTRUTORES <br> <span>ESPECIALIZADOS</span>
+        </h3>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="d-flex flex-column-reverse flex-md-row-reverse justify-content-md-between align-items-center">
+    <div class="text-md-end">
+      <div class="text-center text-md-end">
+        <small class="text-color-primary mb-2 chakra-petch-bold-italic">a um clique de distancia...</small>
+        <h3 class="m-0 chakra-petch-bold-italic fs-1">Acelere seus estudos com a <span class="text-color-primary">RisoflorAI</span>, nossa IA <span><i class="bi bi-robot text-color-primary"></i></span> </h3>
+      </div>
+
+      <small class="d-block my-4 text-md-end">Com a inteligência dos modelos mais avançados e foco em Programação, a RisoflorAI entrega a melhor experiência para você tirar dúvidas, resumir conteúdos e expandir seu aprendizado.</small>
+
+      <a href="https://risoflorai.netlify.app/" target="_blank">
+        <button class="btn btn-primary col-12 col-md-7 mb-4 chakra-petch-bold-italic justify-content-md-end">CONHEÇA NOSSA IA</button>
+      </a>
+    </div>
+
+    <div class="col-md-6 d-flex justify-content-center">
+      <i class="bi bi-openai" style="font-size: 15rem;"></i>
+    </div>
+  </div>
+
+  <div class="row align-items-center" style="margin: 10rem 0 10rem 0">
+
+    <!-- COLUNA ESQUERDA -->
+    <div class="col-12 col-md-6 mb-4 mb-md-0">
+      <h3 class="chakra-petch-bold-italic fs-1 mb-4 text-center text-md-start">
+        Em qual <span class="text-color-primary">tecnologia</span> você quer embarcar?
+      </h3>
+      <small>
+        Use este terminal para descobrir as tecnologias que você pode explorar conosco.
+      </small>
+    </div>
+
+    <!-- COLUNA DIREITA -->
+    <div class="col-12 col-md-5 offset-md-1">
+      <div class="border border-3 border-primary rounded p-4 d-flex flex-column" style="min-height: 10rem">
+
+        <!-- Mensagem inicial -->
+        <div class="justify-content-start">
+          <p class="text-start bg-light text-black p-2 rounded" style="max-width: 70%;">
+            Olá, seja bem-vindo(a)! :)<br />
+            Qual tecnologia você quer estudar?
+          </p>
+        </div>
+
+        <!-- Opção escolhida -->
+        <div class="d-flex justify-content-end">
+          <p class="text-end text-color-primary bg-color-primary text-white p-2 rounded" style="max-width: 70%;" *ngIf="userChoice">
+            {{ userChoice }}
+          </p>
+        </div>
+
+        <!-- Resposta sendo digitada -->
+        <div class="d-flex justify-content-start">
+          <p class="text-start bg-light text-black p-2 rounded" style="max-width: 70%;" *ngIf="systemResponse" [innerHTML]="systemResponse">
+          </p>
+        </div>
+
+        <!-- Opções -->
+        <ul class="list-group mt-4 chakra-petch-light">
+          <p class="text-end">ESCOLHA UMA DAS OPÇÕES ABAIXO:</p>
+          <li role="button" class="list-group-item cursor-pointer bg-transparent text-white" (click)="selectOption('Lógica de Programação')">
+            Lógica de programação
+          </li>
+          <li role="button" class="list-group-item cursor-pointer bg-transparent text-white" (click)="selectOption('Front-End')">
+            Front-End
+          </li>
+          <li role="button" class="list-group-item cursor-pointer bg-transparent text-white" (click)="selectOption('Back-End')">
+            Back-End
+          </li>
+          <li role="button" class="list-group-item cursor-pointer bg-transparent text-white" (click)="selectOption('Banco de Dados')">
+            Banco de Dados
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="d-flex flex-column-reverse flex-md-row justify-content-md-between align-items-center" style="margin-bottom: 10rem;">
+    <div class="col-12 col-md-6">
+      <h3 class="chakra-petch-bold-italic fs-1 mb-0 text-center text-md-start">Saiba mais sobre a <span class="text-color-primary">Brainstorm</span></h3>
+      <small class="d-block my-4">A Brainstorm é uma iniciativa dedicada a capacitar indivíduos com as habilidades necessárias para prosperar na era digital. Oferecemos uma variedade de cursos gratuitos que abrangem desde os fundamentos da programação até tecnologias avançadas, tudo projetado para ajudar você a iniciar ou avançar sua carreira na área de tecnologia.</small>
+      <button class="btn btn-primary col-12 col-md-7 chakra-petch-bold-italic" (click)="redirectToAbout()">SOBRE NÓS</button>
+    </div>
+
+    <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+      <i class="bi bi-info-circle text-center" style="font-size: 15rem"></i>
+    </div>
+  </div>
+</div>

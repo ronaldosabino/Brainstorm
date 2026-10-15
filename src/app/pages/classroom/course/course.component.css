@@ -1,0 +1,23 @@
+.card-premium {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffffff1a;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 16px #0003;
+  transition: 0.3s;
+}
+.card-premium:hover {
+  border-color: #6f6cffaa;
+  box-shadow: 0 0 24px #6f6cff33;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  /* background-color: #6f6cff; */
+  background: linear-gradient(135deg, #6f6cff, white, #4c4aff);
+  border-radius: 10px;
+}

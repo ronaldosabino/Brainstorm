@@ -1,0 +1,68 @@
+<div class="container text-white" style="margin-top: 8rem;">
+  <div class="row">
+
+    <div class="d-none d-md-block col-md-3 ">
+      <h5 class="chakra-petch-bold-italic">Filtros</h5>
+      <div class="form-check check-premium">
+        <input class="form-check-input cursor-pointer" type="checkbox" id="programmingLogic" [(ngModel)]="filters.logic" (change)="applyFilters()">
+        <label class="form-check-label cursor-pointer" for="programmingLogic">
+          Lógica de programação
+        </label>
+      </div>
+
+      <div class="form-check check-premium">
+        <input class="form-check-input cursor-pointer" type="checkbox" id="frontEnd" [(ngModel)]="filters.frontend" (change)="applyFilters()">
+        <label class="form-check-label cursor-pointer" for="frontEnd">
+          Front-End
+        </label>
+      </div>
+
+      <div class="form-check check-premium">
+        <input class="form-check-input cursor-pointer" type="checkbox" id="backEnd" [(ngModel)]="filters.backend" (change)="applyFilters()">
+        <label class="form-check-label cursor-pointer" for="backEnd">
+          Back-End
+        </label>
+      </div>
+
+      <div class="form-check check-premium">
+        <input class="form-check-input cursor-pointer" type="checkbox" id="dataBase" [(ngModel)]="filters.database" (change)="applyFilters()">
+        <label class="form-check-label cursor-pointer" for="dataBase">
+          Banco de dados
+        </label>
+      </div>
+    </div>
+
+    <div class=" col-12 col-md-9">
+
+      <div>
+        <h3 class="chakra-petch-bold-italic">Explore o <span class="text-color-primary">catálogo</span></h3>
+        <p>Cursos e conteúdos pensados para impulsionar sua evolução e transformar conhecimento em prática. Use os filtros para explorar e encontrar o que mais combina com sua jornada.</p>
+      </div>
+
+      <!-- SELECT MOBILE -->
+      <label for="filter" class="d-md-none mb-2 chakra-petch-bold-italic"> Filtros</label>
+      <select class="form-select d-md-none mb-4 mb-md-0" [(ngModel)]="selectedCategory" (change)="selectFilter()" id="filter">
+        <option value="">Selecione</option>
+        <option value="logic">Lógica de programação</option>
+        <option value="frontend">Front-End</option>
+        <option value="backend">Back-End</option>
+        <option value="database">Banco de dados</option>
+      </select>
+
+      <!-- CARDS (COM *ngIf DE FILTRO E *ngFor DINÂMICO)-->
+      <div class="row">
+        <div *ngFor="let course of filteredCourses" class="col-12 col-md-4 p-2">
+          <div (click)="openCourse(course)">
+            <div class="card-premium px-4 py-5 hover-zoom cursor-pointer">
+              <p class="fw-bold chakra-petch-bold-italic text-color-primary">
+                {{ course.title }}
+              </p>
+              <small>{{ course.subtitle }}</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
