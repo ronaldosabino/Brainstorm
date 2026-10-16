@@ -15,7 +15,7 @@ export class SharedService {
         {
           id: 'lesson-1',
           title: '1 - Introdução à Lógica de Programação',
-          duration: '10:00',
+          duration: '3:52',
           description:
             'Nesta aula, você será introduzido aos conceitos básicos de lógica de programação, incluindo algoritmos e fluxogramas.',
           content:
@@ -24,7 +24,7 @@ export class SharedService {
         {
           id: 'lesson-2',
           title: '2 - Conceitos',
-          duration: '15:00',
+          duration: '11:10',
           description:
             'Nesta aula, você aprenderá sobre os principais conceitos da programação.',
           content:
@@ -33,7 +33,7 @@ export class SharedService {
         {
           id: 'lesson-3',
           title: '3 - Criar e executar projetos',
-          duration: '20:00',
+          duration: '5:41',
           description:
             'Nesta aula, você aprendaerá como criar e executar projetos',
           content:
@@ -42,7 +42,7 @@ export class SharedService {
         {
           id: 'lesson-4',
           title: '4 - Comentários',
-          duration: '20:00',
+          duration: '3:47',
           description:
             'Nesta aula, você aprendaerá como comentar em seus códigos',
           content:
@@ -51,7 +51,7 @@ export class SharedService {
         {
           id: 'lesson-5',
           title: '5 - Exibir mensagens',
-          duration: '20:00',
+          duration: '3:31',
           description:
             'Nesta aula, você aprendaerá como comentar em seus códigos',
           content:
@@ -60,7 +60,7 @@ export class SharedService {
         {
           id: 'lesson-6',
           title: '6 - Variáveis',
-          duration: '20:00',
+          duration: '9:49',
           description: 'Nesta aula, você aprendaerá sobre variáveis',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/k4aJRRA5lmE?si=LYFYlq93vxroIzMX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
@@ -68,7 +68,7 @@ export class SharedService {
         {
           id: 'lesson-7',
           title: '7 - Constantes',
-          duration: '20:00',
+          duration: '5:38',
           description: 'Nesta aula, você aprendaerá sobre constantes',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/TxTV1lwL2Fk?si=EGXKxW1qt_KEZAN2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
@@ -76,157 +76,163 @@ export class SharedService {
         {
           id: 'lesson-8',
           title: '8 - Concatenação',
-          duration: '20:00',
-          description: 'Nesta aula, você como concatenar',
+          duration: '6:34',
+          description: 'Nesta aula, você aprenderá sobre concatenação',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/MfLDCTJTUtA?si=mthAp3qEe5gukDLt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-9',
           title: '9 - Comando ReadLine',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre o comando ReadLine',
+          duration: '5:20',
+          description: 'Nesta aula, você aprenderá sobre o comando ReadLine',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/kMupRK9GBbE?si=rbMtl88iAhqLUBdt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-10',
           title: '10 - Converter dados',
-          duration: '20:00',
-          description: 'Nesta aula, você como converter dados',
+          duration: '6:22',
+          description: 'Nesta aula, você aprenderá sobre como converter dados',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/31eqfLpuC8g?si=oN0scCOxAK55YKDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-11',
           title: '11 - Operadores aritiméticos',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre operadores aritiméticos',
+          duration: '8:26',
+          description:
+            'Nesta aula, você aprenderá sobre operadores aritiméticos',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/SURlpJhGd-I?si=HMsIP-74udVtMDa-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-12',
           title: '12 - Operadores relacionais',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre operadores aritiméticos',
+          duration: '6:49',
+          description:
+            'Nesta aula, você aprenderá sobre operadores relacionais',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/Yw1xNUkhb_E?si=Z04oj3Jb03ZNx5yZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-13',
           title: '13 - Operadores lógicos',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre operadores lógicos',
+          duration: '7:05',
+          description: 'Nesta aula, você aprenderá sobre operadores lógicos',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/QmCtpCldIYc?si=FzRcLJOGsR3lE99G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-14',
           title: '14 - Condicional simples',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre condicional simples',
+          duration: '7:19',
+          description: 'Nesta aula, você aprenderá sobre condicional simples',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/AByS_4gcf2c?si=01SLNORjwM-0Do6h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-15',
           title: '15 - Condicional encadeada',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre condicional encadeada',
+          duration: '5:20',
+          description: 'Nesta aula, você aprenderá sobre condicional encadeada',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/MvpNBd_l6S4?si=bqr7HFsMkvwfCzWD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-16',
           title: '16 - Condicional e operadores lógicos',
-          duration: '20:00',
+          duration: '4:41',
           description:
-            'Nesta aula, você sobre condicional e operadores lógicos',
+            'Nesta aula, você aprenderá sobre condicional e operadores lógicos',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/j-WdLhTMFNY?si=LnUyKDyXy5rXQFLm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-17',
           title: '17 - Operador ternário',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre operador ternário',
+          duration: '4:42',
+          description: 'Nesta aula, você aprenderá sobre o operador ternário',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/wGi6doAgvD0?si=m0C_8_tmNafe75Dd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-18',
           title: '18 - Estrutura de escolha',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre estrutura de escolha',
+          duration: '5:21',
+          description: 'Nesta aula, você aprenderá sobre estrutura de escolha',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/onnBy4J9Bx0?si=h70MezdLxKuenXeL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-19',
           title: '19 - Switch Expression',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre Switch Expression',
+          duration: '4:15',
+          description: 'Nesta aula, você aprenderá sobre Switch Expression',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/7YG9hQChk-Y?si=3ogo2nbTY7LlN5xG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-20',
           title: '20 - While',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre o laço de repetição While',
+          duration: '4:43',
+          description:
+            'Nesta aula, você aprenderá sobre o laço de repetição While',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/8jwFJ4I9GLk?si=rl8uGU_u10hIZgJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-21',
           title: '21 - Do While',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre o laço de repetição Do While',
+          duration: '5:33',
+          description:
+            'Nesta aula, você aprenderá sobre o laço de repetição Do While',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/HCdfEn_2cm8?si=-qKmWDKV-7AsoiQd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-22',
           title: '22 - For',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre o laço de repetição For',
+          duration: '5:33',
+          description:
+            'Nesta aula, você aprenderá sobre o laço de repetição For',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/U9Xuj39bAps?si=QHfMdZk_C8gn62xe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-23',
           title: '23 - Vetor',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre Vetor',
+          duration: '8:17',
+          description: 'Nesta aula, você aprenderá sobre Vetor',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/zHdCBvfZszw?si=eMyHgI4tVtgKd-kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-24',
           title: '24 - Foreach',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre Foreach',
+          duration: '4:58',
+          description: 'Nesta aula, você aprenderá sobre Foreach',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/o-lXoSW3PE8?si=DlhJhjoNRA2qsEcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
           id: 'lesson-25',
           title: '25 - Matriz',
-          duration: '20:00',
-          description: 'Nesta aula, você sobre Matriz',
+          duration: '7:29',
+          description: 'Nesta aula, você aprenderá sobre Matriz',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/0kXS5jRe0tE?si=ZeOeyik4YbbnVPS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
       ],
     },
+
     {
       courseId: 'angular-20',
       lessons: [
         {
           id: 'lesson-1',
           title: '1 - Introdução ao Angular 20',
-          duration: '12:00',
+          duration: '3:23',
           description:
             'Nesta aula, você será introduzido ao framework Angular 20, aprendendo sobre sua arquitetura e principais conceitos.',
           content:
@@ -235,7 +241,7 @@ export class SharedService {
         {
           id: 'lesson-2',
           title: '2 - Conceitos',
-          duration: '18:00',
+          duration: '6:47',
           description:
             'Nesta aula, você aprenderá sobre os conceitos fundamentais do Angular 20.',
           content:
@@ -244,7 +250,7 @@ export class SharedService {
         {
           id: 'lesson-3',
           title: '3 - Configurar ambiente',
-          duration: '22:00',
+          duration: '7:05',
           description:
             'Nesta aula, você estudará como configurar o ambiente de desenvolvimento para Angular 20.',
           content:
@@ -253,7 +259,7 @@ export class SharedService {
         {
           id: 'lesson-4',
           title: '4 - Criar e executar o projeto',
-          duration: '22:00',
+          duration: '5:02',
           description:
             'Nesta aula, você estudará como criar e executar um projeto Angular 20.',
           content:
@@ -262,7 +268,7 @@ export class SharedService {
         {
           id: 'lesson-5',
           title: '5 - Componente',
-          duration: '22:00',
+          duration: '5:35',
           description:
             'Nesta aula, você estudará como criar e configurar componentes no Angular 20.',
           content:
@@ -271,7 +277,7 @@ export class SharedService {
         {
           id: 'lesson-6',
           title: '6 - Interpolação de texto',
-          duration: '22:00',
+          duration: '8:53',
           description:
             'Nesta aula, você estudará como interpolar texto no Angular 20.',
           content:
@@ -280,7 +286,7 @@ export class SharedService {
         {
           id: 'lesson-7',
           title: '7 - Data Bindings',
-          duration: '22:00',
+          duration: '11:00',
           description:
             'Nesta aula, você estudará como usar databindings no Angular 20.',
           content:
@@ -289,7 +295,7 @@ export class SharedService {
         {
           id: 'lesson-8',
           title: '8 - FormsModule',
-          duration: '22:00',
+          duration: '8:19',
           description:
             'Nesta aula, você estudará como configurar o FormsModule no Angular 20.',
           content:
@@ -298,7 +304,7 @@ export class SharedService {
         {
           id: 'lesson-9',
           title: '9 - Controle de fluxo',
-          duration: '22:00',
+          duration: '7:39',
           description:
             'Nesta aula, você estudará como implementar controle de fluxo no Angular 20.',
           content:
@@ -307,7 +313,7 @@ export class SharedService {
         {
           id: 'lesson-10',
           title: '10 - Diretivas',
-          duration: '22:00',
+          duration: '4:59',
           description:
             'Nesta aula, você estudará sobre diretivas no Angular 20.',
           content:
@@ -316,7 +322,7 @@ export class SharedService {
         {
           id: 'lesson-11',
           title: '11 - ngStyle',
-          duration: '22:00',
+          duration: '9:30',
           description: 'Nesta aula, você estudará ngStyle no Angular 20.',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/lhMmvG6asbY?si=V587Q01vPv7XUcMX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
@@ -324,7 +330,7 @@ export class SharedService {
         {
           id: 'lesson-12',
           title: '12 - ngClass',
-          duration: '22:00',
+          duration: '5:14',
           description: 'Nesta aula, você estudará ngClass no Angular 20.',
           content:
             '<iframe width="560" height="315" src="https://www.youtube.com/embed/10jVsmsq3BE?si=NBRRRE_Pj-JH5oKW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
@@ -332,7 +338,7 @@ export class SharedService {
         {
           id: 'lesson-13',
           title: '13 - Diretivas customizadas',
-          duration: '22:00',
+          duration: '5:14',
           description:
             'Nesta aula, você estudará sobre diretivas customizadas no Angular 20.',
           content:
@@ -341,7 +347,7 @@ export class SharedService {
         {
           id: 'lesson-14',
           title: '14 - Formulário reativo',
-          duration: '22:00',
+          duration: '5:33',
           description:
             'Nesta aula, você estudará como configurar um formulário reativo no Angular 20.',
           content:
@@ -350,7 +356,7 @@ export class SharedService {
         {
           id: 'lesson-15',
           title: '15 - Validar formulário reativo',
-          duration: '22:00',
+          duration: '8:22',
           description:
             'Nesta aula, você estudará como validar formulários reativos no Angular 20.',
           content:
@@ -359,7 +365,7 @@ export class SharedService {
         {
           id: 'lesson-16',
           title: '16 - Bootstrap',
-          duration: '22:00',
+          duration: '7:13',
           description:
             'Nesta aula, você estudará como configurar o Bootstrap no Angular 20.',
           content:
@@ -367,6 +373,7 @@ export class SharedService {
         },
       ],
     },
+
     {
       courseId: 'csharp-dotnet',
       lessons: [
@@ -472,7 +479,7 @@ export class SharedService {
         {
           id: 'lesson-12',
           title: '12 - Repositório',
-          duration: '25:00',
+          duration: '3:47',
           description:
             'Nessa décima segunda aula do treinamento de Criando APIs com ASP.NET Core, vamos implementar a camada de repositório.',
           content:
@@ -579,31 +586,110 @@ export class SharedService {
         },
       ],
     },
+
     {
       courseId: 'mysql-database',
       lessons: [
         {
-          title: 'Introdução ao MySQL',
-          duration: '11:00',
-          description:
-            'Nesta aula, você será introduzido ao MySQL, aprendendo sobre sua instalação e configuração.',
+          id: 'lesson-1',
+          title: '1 - Introdução',
+          duration: '4:32',
+          description: 'Nesta aula, você será introduzido ao MySQL.',
           content:
-            '<iframe width="560" height="315" src="https://www.youtube.com/embed/wQH6OQQ5RjQ?si=QbF86YNrgpP823Xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/ljdFIqFrC3U" title="C# e MySQL - 01 Introdução" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
-          title: 'Modelagem de Dados',
-          duration: '15:00',
-          description: 'Nesta aula, você estudará modelagem de dados no MySQL.',
+          id: 'lesson-2',
+          title: '2 - Criar projeto',
+          duration: '2:15',
+          description:
+            'Nesta aula, você aprenderá como criar um projeto em C# e MySQL.',
           content:
-            '<iframe width="560" height="315" src="https://www.youtube.com/embed/wQH6OQQ5RjQ?si=QbF86YNrgpP823Xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/0T1Pf1QHktw" title="C# e MySQL - 02 Criar projeto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
         {
-          title: 'Consultas SQL Avançadas',
-          duration: '20:00',
+          id: 'lesson-3',
+          title: '3 - Criar base de dados e tabela',
+          duration: '8:21',
           description:
-            'Nesta aula, você aprenderá consultas SQL avançadas no MySQL.',
+            'Nesta aula, você aprenderá como criar uma base de dados e uma tabela no MySQL.',
           content:
-            '<iframe width="560" height="315" src="https://www.youtube.com/embed/wQH6OQQ5RjQ?si=QbF86YNrgpP823Xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/dKywPyY0gNU" title="C# e MySQL - 03 Criar base de dados e tabela" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-4',
+          title: '4 - Pacote MySQL',
+          duration: '2:47',
+          description:
+            'Nesta aula, você aprenderá como instalar o pacote MySQL no seu projeto C#.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/HWj70ROaP1s" title="C# e MySQL - 04 Pacote MySQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-5',
+          title: '5 - Conexão com o MySQL',
+          duration: '4:30',
+          description: 'Nesta aula, você aprenderá como conectar ao MySQL.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/fHj6k2-5Bi0" title="C# e MySQL - 05 Conexão com o MySQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-6',
+          title: '6 - Implementar classe de conexão',
+          duration: '1:58',
+          description:
+            'Nesta aula, você aprenderá como implementar uma classe de conexão com o MySQL.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/pUNIPXI0YbI" title="C# e MySQL - 06 Implementar classe de conexão" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-7',
+          title: '7 - Classe para executar comandos SQL',
+          duration: '5:21',
+          description: 'Nesta aula, você aprenderá sobre comandos SQL.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/0nLIxKK4L1Q" title="C# e MySQL - 07 Classe para executar comandos SQL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-8',
+          title: '8 - Método de cadastro',
+          duration: '10:59',
+          description: 'Nesta aula, você aprenderá sobre o método de cadastro.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/fL56BoRPl4I" title="C# e MySQL - 08 Método de cadastro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-9',
+          title: '9 - Método de seleção',
+          duration: '7:02',
+          description: 'Nesta aula, você aprenderá sobre o método de seleção.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/0WKmFW38rtc" title="C# e MySQL - 09 Método de seleção" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-10',
+          title: '10 - Método de edição',
+          duration: '4:48',
+          description: 'Nesta aula, você aprenderá sobre o Método de edição.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/jpC-c_P__Gc" title="C# e MySQL - 10 Método de alteração" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-11',
+          title: '11 - Método de remoção',
+          duration: '3:36',
+          description: 'Nesta aula, você aprenderá sobre o método de remoção.',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/BuJ1PH3HbfE" title="C# e MySQL - 11 Método de remoção" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+        },
+        {
+          id: 'lesson-12',
+          title: '12 - Operadores relacionais',
+          duration: '6:48',
+          description:
+            'Nesta aula, você aprenderá sobre operadores relacionais',
+          content:
+            '<iframe width="560" height="315" src="https://www.youtube.com/embed/Yw1xNUkhb_E?si=Z04oj3Jb03ZNx5yZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
         },
       ],
     },
