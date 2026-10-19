@@ -44,7 +44,7 @@ export class HomeComponent {
         break;
 
       case 'Banco de Dados':
-        fullText = `Ótimo!<br> Vamos explorar <b>SQL</b> e modelagem de dados.<br>
+        fullText = `Ótimo!<br> Vamos explorar <b>SQL</b> e modelagem de dados.
         Você pode começar por este <a href='http://localhost:4200/classroom/mysql-database/lesson-1'>treinamento de SQL</a>.`;
         break;
 
