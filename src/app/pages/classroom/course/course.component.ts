@@ -15,7 +15,7 @@ export class CourseComponent {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private sharedService: SharedService,
+    protected sharedService: SharedService,
     private sanitizer: DomSanitizer,
   ) {}
 
@@ -52,6 +52,7 @@ export class CourseComponent {
       }
 
       this.courseData = { id: courseId };
+      this.courseData.title = this.sharedService.getCourseTitle(courseId);
       this.courseLessons = this.sharedService.getCourseLessons(courseId);
 
       const lesson = this.courseLessons.find((l) => l.id === lessonId);

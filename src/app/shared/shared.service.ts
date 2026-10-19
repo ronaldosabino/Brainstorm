@@ -10,6 +10,7 @@ export class SharedService {
   courseData: any = {};
   courseLessons: any[] = [
     {
+      title: 'Lógica de Programação',
       courseId: 'programming-logic',
       lessons: [
         {
@@ -227,6 +228,7 @@ export class SharedService {
     },
 
     {
+      title: 'Angular 20',
       courseId: 'angular-20',
       lessons: [
         {
@@ -375,6 +377,7 @@ export class SharedService {
     },
 
     {
+      title: 'APIs com ASP.NET Core',
       courseId: 'csharp-dotnet',
       lessons: [
         {
@@ -588,6 +591,7 @@ export class SharedService {
     },
 
     {
+      title: 'Banco de dados com MySQL',
       courseId: 'mysql-database',
       lessons: [
         {
@@ -704,5 +708,13 @@ export class SharedService {
       (course) => course.courseId === courseId,
     );
     return course ? course.lessons : [];
+  }
+
+  getCourseTitle(courseId: string) {
+    const course = this.courseLessons.find(
+      (course) => course.courseId === courseId,
+    );
+
+    return course.title;
   }
 }
