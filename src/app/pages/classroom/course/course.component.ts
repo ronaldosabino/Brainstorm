@@ -107,4 +107,8 @@ export class CourseComponent {
   goToLessonById(lessonId: string) {
     this.router.navigate(['/classroom', this.courseData.id, lessonId]);
   }
+
+  backToClassroom() {
+    this.router.navigate(['/classroom']);
+  }
 }

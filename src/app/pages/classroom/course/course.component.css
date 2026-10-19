@@ -21,3 +21,11 @@
   background: linear-gradient(135deg, #6f6cff, white, #4c4aff);
   border-radius: 10px;
 }
+
+.backToClassroom {
+  cursor: pointer;
+}
+
+.backToClassroom:hover {
+  text-decoration: underline;
+}

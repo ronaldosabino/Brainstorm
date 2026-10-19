@@ -5,7 +5,7 @@
       <h5 class="chakra-petch-bold-italic">Aulas</h5>
       <div *ngFor="let lesson of courseLessons" class="mb-3">
         <div class="border border-1 border-secondary rounded p-2 cursor-pointer" (click)="goToLesson(lesson)">
-          <p class="fw-bold chakra-petch-bold-italic text-color-primary mb-1">{{ lesson.title }}</p>
+          <p class="fw-bold chakra-petch-bold-italic mb-1">{{ lesson.title }}</p>
           <small>{{ lesson.duration }}</small>
         </div>
       </div>
@@ -13,8 +13,12 @@
 
     <div class=" col-12 col-md-9">
 
-      <div class="mb-4">
-        <h3 class="chakra-petch-bold-italic">{{ courseData.title }}</h3>
+      <small class="mb-5 backToClassroom" (click)="backToClassroom()">
+        <i class="bi bi-arrow-left"></i> Voltar para os cursos
+      </small>
+
+      <div class="my-4">
+        <h3 class="chakra-petch-bold-italic text-color-primary">{{ courseData.title }}</h3>
       </div>
 
       <!-- SELECT MOBILE -->
@@ -31,7 +35,7 @@
 
 
       <div>
-        <h5 class="chakra-petch-bold-italic mb-3 text-color-primary">{{ selectedLesson!.title }}</h5>
+        <h5 class="chakra-petch-bold-italic mb-3">{{ selectedLesson!.title }}</h5>
 
         <p class="mb-5">{{ selectedLesson!.description }}</p>
 
