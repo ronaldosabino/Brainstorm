@@ -30,22 +30,22 @@ export class HomeComponent {
     switch (choice) {
       case 'Lógica de Programação':
         fullText =
-          'Excelente escolha!<br> <b>Lógica de programação</b> é a base para qualquer linguagem de programação.<br>Comece por este <a href="http://localhost:4200/classroom">curso gratuito</a>.';
+          'Excelente escolha!<br> <b>Lógica de programação</b> é a base para qualquer linguagem de programação.<br>Comece por este <a href="http://localhost:4200/classroom/programming-logic/lesson-1">curso gratuito</a>.';
         break;
 
       case 'Front-End':
         fullText = `Perfeito!<br> Você vai aprender sobre <b>Angular</b>, <b>TypeScript</b> e <b>Bootstrap</b>.<br>
-        Para começar agora <a href="http://localhost:4200/classroom">clique aqui</a>.`;
+        Para começar agora <a href="http://localhost:4200/classroom/angular-20/lesson-1">clique aqui</a>.`;
         break;
 
       case 'Back-End':
         fullText = `Perfeito!<br> Você vai aprender sobre <b>C#</b> e <b>.NET</b><br>
-        Para começar agora <a href="http://localhost:4200/classroom">clique aqui</a>.`;
+        Para começar agora <a href="http://localhost:4200/classroom/csharp-dotnet/lesson-1">clique aqui</a>.`;
         break;
 
       case 'Banco de Dados':
         fullText = `Ótimo!<br> Vamos explorar <b>SQL</b> e modelagem de dados.<br>
-        Você pode começar por este <a href='http://localhost:4200/classroom'>treinamento de SQL</a>.`;
+        Você pode começar por este <a href='http://localhost:4200/classroom/mysql-database/lesson-1'>treinamento de SQL</a>.`;
         break;
 
       default:
