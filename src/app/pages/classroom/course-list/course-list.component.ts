@@ -105,4 +105,8 @@ export class CourseListComponent {
       (course) => this.filters[course.category as keyof typeof this.filters],
     );
   }
+
+  backToHome() {
+    this.router.navigate(['/home']);
+  }
 }

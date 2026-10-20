@@ -14,7 +14,9 @@
 }
 
 .check-premium {
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 /*
 .check-premium:hover {
@@ -22,7 +24,9 @@
 } */
 
 .hover-zoom {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 .hover-zoom:hover {
   transform: scale(1.05);
@@ -32,3 +36,11 @@
 /* input[type="checkbox"] {
   accent-color: #6f6cff;
 } */
+
+.backToHome {
+  cursor: pointer;
+}
+
+.backToHome:hover {
+  text-decoration: underline;
+}
