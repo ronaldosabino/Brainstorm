@@ -13,4 +13,8 @@ export class AboutComponent {
     // Navega para a rota 'classroom'
     this.router.navigate(['/classroom']);
   }
+
+  backToHome() {
+    this.router.navigate(['/home']);
+  }
 }

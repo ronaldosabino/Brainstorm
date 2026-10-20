@@ -43,7 +43,9 @@ h3 {
 /* -------------------------- */
 
 .hover-zoom {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 .hover-zoom:hover {
   transform: scale(1.05);
@@ -97,4 +99,12 @@ img {
 .terminal-bubble {
   border-radius: 14px;
   box-shadow: 0 4px 14px #00000040;
+}
+
+.backToHome {
+  cursor: pointer;
+}
+
+.backToHome:hover {
+  text-decoration: underline;
 }
